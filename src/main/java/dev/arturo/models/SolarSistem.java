@@ -122,5 +122,13 @@ public class SolarSistem {
       return roundUpDensity.doubleValue();
     }
 
+    public Boolean isAnExteriorPlanet(Double ua){
 
+        if (ua > 3.4) {
+            System.out.println("Is an exterior planet Rick");
+            return true;
+        }
+        System.out.println("is not a exterior planet!");
+        return false;
+    }
 }

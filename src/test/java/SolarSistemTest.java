@@ -13,4 +13,11 @@ public class SolarSistemTest {
     void testCalcPlanetDensity() {
         assertThat(planet.calcPlanetDensity(planet), is(2.0));
     }
+
+    @Test 
+    void testIfIsAnExteriorPlanet(){
+        assertThat(planet.isAnExteriorPlanet(2.1), is(false));
+
+        assertThat(planet.isAnExteriorPlanet(3.5), is(true));
+    }
 }

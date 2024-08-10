@@ -22,8 +22,11 @@ Definir un método que devuelva los valores de los atributos de un planeta.
 Calcular la densidad del planeta, como el cociente entre su masa y su volumen.
 
 
-Determinar si un planeta del sistema solar se considera exterior.
-Un planeta exterior está situado más allá del cinturón de asteroides. El cinturón de asteroides se encuentra entre 2.1 y 3.4 UA. Una unidad astronómica (UA) es la distancia entre la Tierra y el Sol = 149597870 Km.
+Determinar si un planeta del sistema solar se considera exterior:
+
+Un planeta exterior está situado más allá del cinturón de asteroides. El cinturón de asteroides se encuentra entre 2.1 y 3.4 UA. 
+
+Una unidad astronómica (UA) es la distancia entre la Tierra y el Sol = 149597870 Km.
 
 
 

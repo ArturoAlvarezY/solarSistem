@@ -131,4 +131,19 @@ public class SolarSistem {
         System.out.println("is not a exterior planet!");
         return false;
     }
+
+    @Override
+    public String toString(){
+        return    "name='" + name + '\'' +
+        ", satellite=" + satellite +
+        ", mass=" + mass +
+        ", volume=" + volume +
+        ", diameter=" + diameter +
+        ", sunDistance=" + sunDistance +
+        ", typeOfPlanet=" + typeOfPlanet +
+        ", observableNakedEye=" + observableNakedEye +
+        '}';
+        
+
+    }
 }
